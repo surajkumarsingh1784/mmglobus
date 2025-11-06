@@ -1332,7 +1332,7 @@
                     </a>
                 </div>
                 <div class="about-image-container">
-                    <img src="About.png" alt="About Digi Synapse" class="about-image">
+                    <img src="about.png" alt="About Digi Synapse" class="about-image">
                 </div>
             </div>
         </div>
