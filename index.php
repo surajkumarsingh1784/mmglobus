@@ -1217,6 +1217,25 @@
             color: #94a3b8;
         }
 
+        .footer-social {
+            display: flex;
+            align-items: center;
+            gap: 1rem; /* Space between icons and text */
+        }
+
+        .footer-social a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .footer-social a img {
+            width: 24px;
+            height: 24px;
+            margin-right: 0.5rem; /* Space between icon and text */
+        }
+
         @media (min-width: 768px) {
             .footer-grid {
                 grid-template-columns: repeat(2, 1fr);
