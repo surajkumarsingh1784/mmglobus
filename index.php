@@ -1038,7 +1038,7 @@
         }
 
         .pricing-card.popular .pricing-header {
-            background-color: #1a3a52;;
+            background-color: #2d5a7b;
             color: white;
         }
 
@@ -1080,7 +1080,7 @@
         }
 
         .pricing-card.popular .pricing-btn {
-            background-color: rgb(70, 130, 180);
+            background-color: #1a3a52;
             color: white;
         }
 
