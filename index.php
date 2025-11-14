@@ -1252,7 +1252,7 @@
                     <a href="#services" class="nav-link">Services</a>
                     <a href="#testimonials" class="nav-link">Testimonials</a>
                     <a href="#pricing" class="nav-link">Pricing</a>
-                    <a href="about.php" class="nav-link">About</a>
+                    <a href="#about" class="nav-link">About</a>
                     <a href="#contact" class="btn btn-white">Contact Us</a>
                 </div>
 
@@ -1272,7 +1272,7 @@
             <a href="index.php#services" onclick="closeMobileMenu()">Services</a>
             <a href="index.php#testimonials" onclick="closeMobileMenu()">Testimonials</a>
             <a href="index.php#pricing" onclick="closeMobileMenu()">Pricing</a>
-            <a href="about.php" onclick="closeMobileMenu()">About</a>
+            <a href="#about" onclick="closeMobileMenu()">About</a>
             <a href="index.php#contact" class="btn btn-white" onclick="closeMobileMenu()">Contact Us</a>
         </div>
     </header>
