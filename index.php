@@ -493,6 +493,7 @@
             font-weight: 700;
             text-align: center;
             margin-bottom: 3rem;
+            color: #000000; /* Set text color to black */
         }
 
         /* Static accent-dark highlight under the About section title */
