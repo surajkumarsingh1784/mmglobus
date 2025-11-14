@@ -1644,15 +1644,6 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="section cta" id="contact">
-        <div class="container">
-            <h2 class="cta-title">Ready to Transform Your Digital Presence?</h2>
-            <!-- moved the CTA lead-in text to the footer as requested -->
-            <a href="mailto:digisynapse@mmglobus.in" class="btn btn-white btn-lg">Contact Us Today</a>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
