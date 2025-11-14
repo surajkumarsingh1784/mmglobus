@@ -1169,6 +1169,13 @@
             color: white;
         }
 
+        /* Footer links styling */
+.footer ul li {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
         .contact-item {
             display: flex;
             align-items: flex-start;
