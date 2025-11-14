@@ -1290,6 +1290,14 @@
         .fa-classic, .fa-regular, .fa-solid, .far, .fas {
             font-family: "Font Awesome 6 Free";
         }
+
+        .fa-comments:before {
+            content: "\f086";
+        }
+
+        *, ::after, ::before {
+            box-sizing: border-box;
+        }
     </style>
 </head>
 
