@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
      <link rel="icon" type="image/x-icon" href="fav-icon.png">
+    <!-- Font Awesome Library -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
     <style>
         :root {
@@ -1474,8 +1476,6 @@
                             150% within just 3 months. Their social media strategy perfectly captured our practice's
                             caring approach."
                         </p>
-                        <div class="testimonial-author">Dr. Srikanth</div>
-                        <div class="testimonial-business">Sri Lakshmi Dental Clinic And Implant Center</div>
                     </div>
 
                     <!-- Dental Practice 2 -->
