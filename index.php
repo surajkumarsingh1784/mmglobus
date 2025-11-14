@@ -1725,6 +1725,18 @@
                 </div>
             </div>
 
+            <div class="footer-social">
+                <a href="#">
+                    <img src="linkedin-logo.png" alt="LinkedIn"> LinkedIn
+                </a>
+                <a href="#">
+                    <img src="twitter-logo.png" alt="Twitter"> Twitter
+                </a>
+                <a href="#">
+                    <img src="facebook-logo.png" alt="Facebook"> Facebook
+                </a>
+            </div>
+
             <div class="footer-bottom">
                 <p>&copy;
                     <script>document.write(new Date().getFullYear())</script> Digi Synapse. All rights reserved.
