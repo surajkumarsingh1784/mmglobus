@@ -718,7 +718,7 @@
 
         .service-card:hover {
             transform: translateY(-6px);
-            box-shadow: 0 18px 40px rgba(2,6,23,0.12), 0 0 18px rgba(212,165,116,0.06);
+            box-shadow: 0 18px 40px rgba(2, 6, 23, 0.12), 0 0 18px rgba(212, 165, 116, 0.06);
             border-color: var(--accent);
         }
 
@@ -1015,6 +1015,13 @@
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
             transform: scale(1.05);
             position: relative;
+        }
+
+        /* Apply hover effect to the middle pricing card */
+        .pricing-card.popular:hover {
+            background-color: var(--primary); /* Change background color on hover */
+            transform: translateY(-6px); /* Add hover lift effect */
+            box-shadow: 0 18px 40px rgba(2, 6, 23, 0.12), 0 0 18px rgba(212, 165, 116, 0.06); /* Match hover shadow */
         }
 
         .popular-badge {
