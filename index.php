@@ -1018,15 +1018,7 @@
             background-color: #f8fafc; /* Set default background color */
         }
 
-        /* Add a banner above ₹2999 */
-.pricing-card.popular .pricing-price::before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 8px; /* Adjust height as needed */
-    background-color: #1a3a52; /* Set background color */
-    margin-bottom: 0.5rem; /* Add spacing below the banner */
-}
+      
 
         .popular-badge {
             position: absolute;
