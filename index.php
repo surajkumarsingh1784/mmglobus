@@ -1718,7 +1718,7 @@
                 <div>
                     <h3 class="footer-title">Connect With Us</h3>
                     <ul>
-                        <li>LinkedIn</li>
+                        <li><a href="https://www.linkedin.com/" aria-label="Visit our LinkedIn profile"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
                         <li>Twitter</li>
                         <li>Facebook</li>
                     </ul>
