@@ -1768,24 +1768,13 @@
                     <h3 class="footer-title">Connect With Us</h3>
                     <ul>
                         <li><a href="https://www.linkedin.com/" aria-label="Visit our LinkedIn profile"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                        <li>Twitter</li>
-                        <li>Facebook</li>
+                        <li><a href="https://x.com/home" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="https://www.facebook.com/" aria-label="Like us on Facebook"><i class="fab fa-facebook"></i> Facebook</a></li>
                     </ul>
                 </div>
             </div>
 
-            <!-- Social Media Links -->
-            <div class="footer-social">
-                <a href="https://www.linkedin.com" target="_blank" class="social-link">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://www.twitter.com" target="_blank" class="social-link">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.facebook.com" target="_blank" class="social-link">
-                    <i class="fab fa-facebook"></i>
-                </a>
-            </div>
+          
 
             <div class="footer-bottom">
                 <p>&copy;
