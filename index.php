@@ -1011,14 +1011,21 @@
         }
 
         .pricing-card.popular {
-            border-color: #1a3a52;
+            border-color: #2d5a7b;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
             transform: scale(1.05);
             position: relative;
             background-color: #f8fafc; /* Set default background color */
         }
 
-      
+        .pricing-card:nth-child(2):hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+        }
+
+        .pricing-card:nth-child(2):hover::after {
+            opacity: 1;
+        }
 
         .popular-badge {
             position: absolute;
