@@ -1011,7 +1011,7 @@
         }
 
         .pricing-card.popular {
-            border-color: #1a3a52;;
+            border-color: #1a3a52;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
             transform: scale(1.05);
             position: relative;
@@ -1038,7 +1038,7 @@
         }
 
         .pricing-card.popular .pricing-header {
-            background-color: rgb(70, 130, 180);
+            background-color: #1a3a52;;
             color: white;
         }
 
