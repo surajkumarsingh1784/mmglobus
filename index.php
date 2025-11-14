@@ -1134,10 +1134,8 @@
 
         /* Footer */
         .footer {
-            background-color: rgb(70, 130, 180);
-            ;
-            color: white;
-            padding: 4rem 0 2rem;
+            background: var(--primary);
+            padding: 3rem 2rem 1.5rem;
         }
 
         .footer-grid {
@@ -1151,26 +1149,8 @@
             margin-bottom: 1.5rem;
         }
 
-        .footer-about {
-            color: #cbd5e1;
-            margin-bottom: 1.5rem;
-        }
-
-        .social-links {
-            display: flex;
-            gap: 1rem;
-        }
-
-        .social-link {
-            color: white;
-            transition: color 0.2s ease;
-        }
-
-        .social-link:hover {
-            color: #cbd5e1;
-        }
-
         .footer-title {
+            color: var(--accent);
             font-size: 1.25rem;
             font-weight: 700;
             margin-bottom: 1.5rem;
@@ -1212,15 +1192,6 @@
             padding-top: 2rem;
             text-align: center;
             color: #94a3b8;
-        }
-
-        .footer-cta {
-            text-align: center;
-            font-size: 1.125rem;
-            color: #334155;
-            max-width: 56rem;
-            margin: 0 auto 1.25rem;
-            opacity: 0.95;
         }
 
         @media (min-width: 768px) {
@@ -1685,7 +1656,42 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p class="footer-cta">Let's work together to create a tailored digital strategy that helps your business thrive online.</p>
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-title">About</h3>
+                    <ul>
+                        <li>About Maximilian Globus</li>
+                        <li>View Our Services</li>
+                        <li>Contact Information</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Services</h3>
+                    <ul>
+                        <li>Human Resources Solutions</li>
+                        <li>E-Learning Platform</li>
+                        <li>Digital Services</li>
+                        <li>Web Services & Development</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Legal</h3>
+                    <ul>
+                        <li>Terms & Conditions</li>
+                        <li>Privacy Policy</li>
+                        <li>Cookie Policy</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Connect With Us</h3>
+                    <ul>
+                        <li>LinkedIn</li>
+                        <li>Twitter</li>
+                        <li>Facebook</li>
+                    </ul>
+                </div>
+            </div>
+
             <div class="footer-bottom">
                 <p>&copy;
                     <script>document.write(new Date().getFullYear())</script> Digi Synapse. All rights reserved.
