@@ -1015,13 +1015,12 @@
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
             transform: scale(1.05);
             position: relative;
+            background-color: var(--primary); /* Set default background color */
         }
 
-        /* Apply hover effect to the middle pricing card */
+        /* Platinum Clientel card hover background */
         .pricing-card.popular:hover {
-            background-color: var(--primary); /* Change background color on hover */
-            transform: translateY(-6px); /* Add hover lift effect */
-            box-shadow: 0 18px 40px rgba(2, 6, 23, 0.12), 0 0 18px rgba(212, 165, 116, 0.06); /* Match hover shadow */
+            background-color: initial; /* Remove background color change on hover */
         }
 
         .popular-badge {
