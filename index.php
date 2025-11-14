@@ -1149,12 +1149,12 @@
             margin-bottom: 1.5rem;
         }
 
-        .footer-title {
-            color: var(--accent);
-            font-size: 1.25rem;
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-        }
+        /* Footer section titles styling */
+.footer .footer-title {
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
 
         .footer-links li {
             margin-bottom: 0.75rem;
