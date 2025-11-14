@@ -1011,17 +1011,14 @@
         }
 
         .pricing-card.popular {
-            border-color: rgb(70, 130, 180);
+            border-color: var(--primary);
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
             transform: scale(1.05);
             position: relative;
             background-color: var(--primary); /* Set default background color */
         }
 
-        /* Platinum Clientel card hover background */
-        .pricing-card.popular:hover {
-            background-color: initial; /* Remove background color change on hover */
-        }
+       
 
         .popular-badge {
             position: absolute;
