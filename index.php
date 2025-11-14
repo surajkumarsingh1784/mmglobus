@@ -1252,6 +1252,44 @@
         }
 
         /* Hero wave removed - no CSS required here */
+
+        /* Chatbot Button */
+        .chatbot-container {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 999;
+        }
+
+        .chatbot-button {
+            width: 60px;
+            height: 60px;
+            background: var(--accent);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: var(--primary);
+            box-shadow: 0 4px 12px rgba(212, 165, 116, 0.4);
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .chatbot-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(212, 165, 116, 0.6);
+        }
+
+        .fa-solid, .fas {
+            font-weight: 900;
+        }
+
+        .fa-classic, .fa-regular, .fa-solid, .far, .fas {
+            font-family: "Font Awesome 6 Free";
+        }
     </style>
 </head>
 
@@ -1748,6 +1786,13 @@
             </div>
         </div>
     </footer>
+
+    <!-- Chatbot Button -->
+        <div class="chatbot-container">
+            <a class="chatbot-button" id="chatbotBtn" href="#contact" aria-label="Contact us via chat">
+                <i class="fas fa-comments"></i>
+            </a>
+        </div>
 
     <script>
         // Mobile Menu Toggle
