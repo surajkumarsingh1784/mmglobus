@@ -982,6 +982,7 @@
             position: relative;
             overflow: visible;
             border-top: 4px solid var(--accent);
+            color: #334155; /* Set text color to #334155 for all pricing cards */
         }
 
         .pricing-card::after {
