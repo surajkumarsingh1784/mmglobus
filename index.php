@@ -1176,6 +1176,11 @@
     transition: color 0.3s ease;
 }
 
+/* Footer links hover effect */
+.footer ul li:hover {
+    color: var(--accent-dark);
+}
+
         .contact-item {
             display: flex;
             align-items: flex-start;
