@@ -718,7 +718,7 @@
 
         .service-card:hover {
             transform: translateY(-6px);
-            box-shadow: 0 18px 40px rgba(2, 6, 23, 0.12), 0 0 18px rgba(212, 165, 116, 0.06);
+            box-shadow: 0 18px 40px rgba(2, 6, 23, 0.12), 0 0 18px rgba(212,165,116,0.06);
             border-color: var(--accent);
         }
 
@@ -1219,21 +1219,19 @@
 
         .footer-social {
             display: flex;
-            align-items: center;
-            gap: 1rem; /* Space between icons and text */
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
         }
 
-        .footer-social a {
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            color: inherit;
+        .social-link {
+            color: var(--accent);
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
         }
 
-        .footer-social a img {
-            width: 24px;
-            height: 24px;
-            margin-right: 0.5rem; /* Space between icon and text */
+        .social-link:hover {
+            color: var(--primary);
         }
 
         @media (min-width: 768px) {
@@ -1246,6 +1244,11 @@
             .footer-grid {
                 grid-template-columns: repeat(4, 1fr);
             }
+        }
+
+        /* Add spacing between footer sections */
+        .footer-section {
+            margin-bottom: 1.5rem;
         }
 
         /* Hero wave removed - no CSS required here */
@@ -1723,6 +1726,19 @@
                         <li>Facebook</li>
                     </ul>
                 </div>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="footer-social">
+                <a href="https://www.linkedin.com" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
             </div>
 
             <div class="footer-bottom">
