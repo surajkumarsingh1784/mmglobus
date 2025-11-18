@@ -1188,6 +1188,7 @@
     text-decoration: none;
     transition: color 0.3s ease;
     margin-bottom: 0.75rem;
+        padding-left: 2rem;
 }
 
 /* Footer links hover effect */
