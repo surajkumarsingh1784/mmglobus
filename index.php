@@ -1255,6 +1255,11 @@
             margin-bottom: 0.75rem;
         }
 
+        /* Prevent wrapping of footer list items */
+        .footer-section ul li {
+            white-space: nowrap;
+        }
+
         /* Hero wave removed - no CSS required here */
 
         /* Chatbot Button */
