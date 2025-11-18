@@ -1720,6 +1720,7 @@
                                 <span class="feature-icon">✓</span>
                                 <span>Content Research: Full</span>
                             </li>
+                            <li class="feature-icon">✓</li>
                             <li class="feature-item">
                                 <span class="feature-icon">✓</span>
                                 <span>Stories: 15</span>
