@@ -1250,7 +1250,7 @@
 
         /* Add spacing between footer sections */
         .footer-section {
-            margin-bottom: 1.5rem;
+            margin-bottom: 0.75rem;
         }
 
         /* Hero wave removed - no CSS required here */
