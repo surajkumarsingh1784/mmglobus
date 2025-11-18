@@ -1187,6 +1187,7 @@
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     transition: color 0.3s ease;
+    margin-bottom: 0.75rem;
 }
 
 /* Footer links hover effect */
